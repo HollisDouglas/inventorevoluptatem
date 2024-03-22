@@ -1,0 +1,39 @@
+{
+  "name": "inventorevoluptatem",
+  "version": "1.0.0",
+  "description": "A high-performance JavaScript 2D/3D polyline simplification library",
+  "homepage": "https://github.com/HollisDouglas/inventorevoluptatem.git",
+  "author": "JonathonBreitenberg",
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "math",
+    "assumenda",
+    "dolores",
+    "et"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HollisDouglas/inventorevoluptatem.git"
+  },
+  "main": "simplify.js",
+  "files": [
+    "simplify.js"
+  ],
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "faucet": "0.0.1",
+    "jshint": "^2.9.5",
+    "tape": "^4.8.0"
+  },
+  "scripts": {
+    "test": "jshint simplify.js test/test.js && node test/test.js | faucet"
+  },
+  "jshintConfig": {
+    "quotmark": "single",
+    "trailing": true,
+    "unused": true
+  },
+  "bugs": {
+    "url": "https://github.com/HollisDouglas/inventorevoluptatem.git/issues"
+  }
+}
